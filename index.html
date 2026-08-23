@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Test 7</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#0B1830">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      height: -webkit-fill-available;
+      height: 100dvh;
+      background: #0B1830;
+      overflow: hidden;
+    }
+    .shell {
+      position: fixed;
+      inset: 0;
+      overflow: hidden;
+    }
+    .top {
+      width: 100%;
+      height: 56vh;
+      height: 56dvh;
+      background: #E4572E;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: -apple-system, sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .bottom {
+      width: 100%;
+      height: 44vh;
+      height: 44dvh;
+      background: #2E6FE0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: -apple-system, sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <div class="top">Test 7: niente flexbox/percentuali.<br>Ogni blocco ha altezza in dvh<br>diretta (56dvh / 44dvh),<br>non percentuale del genitore.</div>
+    <div class="bottom">Se ora è a schermo intero,<br>abbiamo il fix.</div>
+  </div>
+</body>
+</html>
